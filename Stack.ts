@@ -5,82 +5,60 @@ Author: David Oniani
 */
 
 
-//
-// NOTE 1: When throwing exceptions, keyword 'new' is not needed yet, it is a good practice to include it
-// and is recommended by several style guides and related tooling.
-//
-// NOTE 2: Unlike class-based languages, JavaScript does not require a main method.
-// Since TypeScript is a superset of JavaScript, all JavaScript code is also valid TypeScript, and therefore doesn't need a main.
-// So, you can call your Object (JavaScript) or Class (TypeScript) anything you'd like - Main, DoThis etc. and all are equally valid
-// and can be invoked by calling, just as you've done.
-//
-// They can also be invoked by:
-//                  • Event handlers
-//                  • A framework's system, such as the data-main attribute used by some MVC/JavaScript systems.
-//
-//
-// NOTE 3: Typescript "TRANSPILES" into JavaScript. People argue whether it is a scripting language or not since it
-// does not compile to bytecode but gets transalated into native JavaScrupt.
-//
-// NOTE 4: Although braces around 'if' statements and 'for' loops are not required, it is a good practice to use them.
-// If one accidentally omits one, Typescript won't compile. Hence, be safe, use braces!
-//
-
-
 // A class for the stack
 class Stack {
     // A variable to store the items of the stack
-    private items: any[];
+    private _items: any[];
 
-    // The clas constructor
+    // A stack constructor
     public constructor() {
-        this.items = [];
+        this._items = [];
     }
 
     // Get the size of the stack
     public size(): number {
-        return this.items.length;
+        return this._items.length;
     }
 
     // Push an item onto the stack
     public push(item: any): void {
-        this.items.push(item);
+        this._items.push(item);
     }
 
     // Get the top of the stack
     public top(): number {
-        if (this.items === []) {
+        if (this._items === []) {
             throw new Error("Cannot get the top of the empty stack!");
         }
 
-        return this.items[this.items.length - 1];
+        return this._items[this._items.length - 1];
     }
 
     // Pop the item from the stack
     public pop(): number {
-        if (this.items.length === 0) {
+        if (this._items.length === 0) {
             throw new Error("Cannot pop the empty stack!");
         }
 
-        let last = this.items[this.items.length - 1];
-        this.items.splice(this.items.length - 1, 1);
+        let last = this._items[this._items.length - 1];
+        this._items.splice(this._items.length - 1, 1);
 
         return last;
     }
 
     // Check if the stack is empty
     public isEmpty(): boolean {
-        return this.items === [];
+        return this._items === [];
     }
 
     // Clear the stack
     public clear(): void {
-        this.items = [];
+        this._items = [];
     }
 
     // Show the stack
     public show(): void {
-        console.log("Stack", this.items);
+        console.log("Stack", this._items);
     }
 
     // Build the stack from the array

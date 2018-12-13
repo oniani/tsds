@@ -5,6 +5,7 @@ License: MIT
 */
 
 
+// A class to represent the nodes of the linked list
 class ListNode {
     private _value: any;
     private _next: null | ListNode;
@@ -38,7 +39,7 @@ class LinkedList {
     private head: any;
     private size: number;
 
-    // The linked list class constructor
+    // A linked list constructor
     public constructor() {
         this.head = new ListNode();
         this.size = 0;
