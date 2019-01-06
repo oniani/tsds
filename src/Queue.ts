@@ -1,8 +1,10 @@
 /*
 A queue data structure.
-
 Author: David Oniani
+License: MIT
 */
+
+export = Queue;
 
 
 // A class for the queue

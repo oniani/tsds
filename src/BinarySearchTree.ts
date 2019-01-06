@@ -1,7 +1,7 @@
 /*
 A singly linked list data structure.
-
 Author: David Oniani
+License: MIT
 */
 
 

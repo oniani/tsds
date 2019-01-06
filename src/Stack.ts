@@ -1,8 +1,10 @@
 /*
 A stack data structure.
-
 Author: David Oniani
+License: MIT
 */
+
+export = Stack;
 
 
 // A class for the stack
