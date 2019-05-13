@@ -1,9 +1,9 @@
 /*
-Module: A singly linked list data structure
-Author: David Oniani
-License: MIT
+ * Module: A singly linked list data structure
+ * Author: David Oniani
+ * License: GNU General Public License v3.0
+ * 
 */
-
 
 // A class to represent the nodes of the linked list
 class ListNode {

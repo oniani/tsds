@@ -1,11 +1,11 @@
 /*
-A stack data structure.
-Author: David Oniani
-License: MIT
+ * A stack data structure.
+ * Author: David Oniani
+ * License: GNU General Public License v3.0
+ * 
 */
 
 export = Stack;
-
 
 // A class for the stack
 class Stack {

@@ -1,11 +1,11 @@
 /*
-A queue data structure.
-Author: David Oniani
-License: MIT
+ * A queue data structure.
+ * Author: David Oniani
+ * License: GNU General Public License v3.0
+ * 
 */
 
 export = Queue;
-
 
 // A class for the queue
 class Queue {

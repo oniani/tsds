@@ -1,9 +1,9 @@
 /*
-Module: A trie data structure
-Author: David Oniani
-License: MIT
+ * Module: A trie data structure
+ * Author: David Oniani
+ * License: GNU General Public License v3.0
+ * 
 */
-
 
 // A class to represent the nodes of the trie
 class TrieNode {

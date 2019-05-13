@@ -1,12 +1,12 @@
 /*
-A graph data structure.
-Author: David Oniani
-License: MIT
+ * A graph data structure.
+ * Author: David Oniani
+ * License: GNU General Public License v3.0
+ * 
 */
 
 import Queue = require('./Queue');
 import Stack = require('./Stack');
-
 
 // A graph class
 class Graph {

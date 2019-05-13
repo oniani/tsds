@@ -1,9 +1,9 @@
 /*
-Module: A bloom filter data structure
-Author: David Oniani
-License: MIT
+ * Module: A bloom filter data structure
+ * Author: David Oniani
+ * License: GNU General Public License v3.0
+ * 
 */
-
 
 // A bloom filter class
 class BloomFilter {
