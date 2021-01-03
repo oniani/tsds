@@ -1,7 +1,7 @@
 /*
  * Module: A trie data structure
  * Author: David Oniani
- * License: GNU General Public License v3.0
+ * License: MIT
  * 
 */
 
